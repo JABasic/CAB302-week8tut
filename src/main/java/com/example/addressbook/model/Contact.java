@@ -8,6 +8,13 @@ public class Contact {
     private String phone;
 
     public Contact(String firstName, String lastName, String email, String phone) {
+        /*
+         * Constructs a new Contact with the specified first name, last name, email, and phone number.
+         * @param firstName The first name of the contact
+         * @param lastName The last name of the contact
+         * @param email The email of the contact
+         * @param phone The phone number of the contact
+         */
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
